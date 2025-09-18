@@ -202,7 +202,7 @@ int main() {
 		glBindVertexArray(VAO);
 	
 
-		//Mesa
+		//Tabla de la mesa
 	    model = glm::mat4(1);
 		model = glm::scale(model, glm::vec3(10.0f, 0.5f, 10.0f));
 		model = glm::translate(model, glm::vec3(0.0f, 2.5f, 0.0f));
